@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animações</title>
+
+</head>
+
+    <style>
+        
+    .contanier {
+        width: 45%;
+        text-align: center;
+        margin-top: 5%;
+        margin-left: 25%; 
+        background-color: rgb(202, 148, 253);
+        font-size: 25px;
+        color: rgb(133, 53, 199);
+    }
+             
+    .heart {
+    animation: moveToRight 2s ease-in-out;
+
+    animation-delay: 1000ms;
+
+    animation-iteration-count: infinite
+
+    }
+
+    @keyframes moveToRight {
+
+    0% {
+
+    transform: translateX(0px);
+
+    }
+
+    100% {
+
+    transform: scale(1.1);
+
+    }
+
+    }
+   
+    </style>
+
+<body>
+
+<div class="contanier">
+
+<h1>Descodificadas</h1>
+    
+<h2>Eu amo Tecnologia</h2>
+    
+<section class="heart">
+
+<img src="png-transparent-heart-heart-heart-removebg-preview.png" alt="Heart">
+    
+</section>
+
+</div>
+    
+</body>
+
+</html>
